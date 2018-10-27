@@ -1,0 +1,295 @@
+﻿<Window x:Class="sieci.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:sieci"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="750" Width="1148" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <Style TargetType="ToggleButton">
+            <Setter Property="Width" Value="40"/>
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="ClickMode" Value="Press"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="700"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0">
+        <StackPanel Margin="10">
+            <WrapPanel>
+                <ToggleButton x:Name="t0101"/>
+                <ToggleButton x:Name="t0102"/>
+                <ToggleButton x:Name="t0103"/>
+                <ToggleButton x:Name="t0104"/>
+                <ToggleButton x:Name="t0105"/>
+                <ToggleButton x:Name="t0106"/>
+                <ToggleButton x:Name="t0107"/>
+                <ToggleButton x:Name="t0108"/>
+                <ToggleButton x:Name="t0109"/>
+                <ToggleButton x:Name="t0110"/>
+                <ToggleButton x:Name="t0111"/>
+                <ToggleButton x:Name="t0112"/>
+                <ToggleButton x:Name="t0113"/>
+                <ToggleButton x:Name="t0114"/>
+                <ToggleButton x:Name="t0115"/>
+            </WrapPanel>
+            <WrapPanel>
+                <ToggleButton x:Name="t0201"/>
+                <ToggleButton x:Name="t0202"/>
+                <ToggleButton x:Name="t0203"/>
+                <ToggleButton x:Name="t0204"/>
+                <ToggleButton x:Name="t0205"/>
+                <ToggleButton x:Name="t0206"/>
+                <ToggleButton x:Name="t0207"/>
+                <ToggleButton x:Name="t0208"/>
+                <ToggleButton x:Name="t0209"/>
+                <ToggleButton x:Name="t0210"/>
+                <ToggleButton x:Name="t0211"/>
+                <ToggleButton x:Name="t0212"/>
+                <ToggleButton x:Name="t0213"/>
+                <ToggleButton x:Name="t0214"/>
+                <ToggleButton x:Name="t0215"/>
+            </WrapPanel>
+            <WrapPanel>
+                <ToggleButton x:Name="t0301"/>
+                <ToggleButton x:Name="t0302"/>
+                <ToggleButton x:Name="t0303"/>
+                <ToggleButton x:Name="t0304"/>
+                <ToggleButton x:Name="t0305"/>
+                <ToggleButton x:Name="t0306"/>
+                <ToggleButton x:Name="t0307"/>
+                <ToggleButton x:Name="t0308"/>
+                <ToggleButton x:Name="t0309"/>
+                <ToggleButton x:Name="t0310"/>
+                <ToggleButton x:Name="t0311"/>
+                <ToggleButton x:Name="t0312"/>
+                <ToggleButton x:Name="t0313"/>
+                <ToggleButton x:Name="t0314"/>
+                <ToggleButton x:Name="t0315"/>
+            </WrapPanel>
+            <WrapPanel>
+                <ToggleButton x:Name="t0401"/>
+                <ToggleButton x:Name="t0402"/>
+                <ToggleButton x:Name="t0403"/>
+                <ToggleButton x:Name="t0404"/>
+                <ToggleButton x:Name="t0405"/>
+                <ToggleButton x:Name="t0406"/>
+                <ToggleButton x:Name="t0407"/>
+                <ToggleButton x:Name="t0408"/>
+                <ToggleButton x:Name="t0409"/>
+                <ToggleButton x:Name="t0410"/>
+                <ToggleButton x:Name="t0411"/>
+                <ToggleButton x:Name="t0412"/>
+                <ToggleButton x:Name="t0413"/>
+                <ToggleButton x:Name="t0414"/>
+                <ToggleButton x:Name="t0415"/>
+            </WrapPanel>
+            <WrapPanel>
+                <ToggleButton x:Name="t0501"/>
+                <ToggleButton x:Name="t0502"/>
+                <ToggleButton x:Name="t0503"/>
+                <ToggleButton x:Name="t0504"/>
+                <ToggleButton x:Name="t0505"/>
+                <ToggleButton x:Name="t0506"/>
+                <ToggleButton x:Name="t0507"/>
+                <ToggleButton x:Name="t0508"/>
+                <ToggleButton x:Name="t0509"/>
+                <ToggleButton x:Name="t0510"/>
+                <ToggleButton x:Name="t0511"/>
+                <ToggleButton x:Name="t0512"/>
+                <ToggleButton x:Name="t0513"/>
+                <ToggleButton x:Name="t0514"/>
+                <ToggleButton x:Name="t0515"/>
+            </WrapPanel>
+            <WrapPanel>
+                <ToggleButton x:Name="t0601"/>
+                <ToggleButton x:Name="t0602"/>
+                <ToggleButton x:Name="t0603"/>
+                <ToggleButton x:Name="t0604"/>
+                <ToggleButton x:Name="t0605"/>
+                <ToggleButton x:Name="t0606"/>
+                <ToggleButton x:Name="t0607"/>
+                <ToggleButton x:Name="t0608"/>
+                <ToggleButton x:Name="t0609"/>
+                <ToggleButton x:Name="t0610"/>
+                <ToggleButton x:Name="t0611"/>
+                <ToggleButton x:Name="t0612"/>
+                <ToggleButton x:Name="t0613"/>
+                <ToggleButton x:Name="t0614"/>
+                <ToggleButton x:Name="t0615"/>
+            </WrapPanel>
+            <WrapPanel>
+                <ToggleButton x:Name="t0701"/>
+                <ToggleButton x:Name="t0702"/>
+                <ToggleButton x:Name="t0703"/>
+                <ToggleButton x:Name="t0704"/>
+                <ToggleButton x:Name="t0705"/>
+                <ToggleButton x:Name="t0706"/>
+                <ToggleButton x:Name="t0707"/>
+                <ToggleButton x:Name="t0708"/>
+                <ToggleButton x:Name="t0709"/>
+                <ToggleButton x:Name="t0710"/>
+                <ToggleButton x:Name="t0711"/>
+                <ToggleButton x:Name="t0712"/>
+                <ToggleButton x:Name="t0713"/>
+                <ToggleButton x:Name="t0714"/>
+                <ToggleButton x:Name="t0715"/>
+            </WrapPanel>
+            <WrapPanel>
+                <ToggleButton x:Name="t0801"/>
+                <ToggleButton x:Name="t0802"/>
+                <ToggleButton x:Name="t0803"/>
+                <ToggleButton x:Name="t0804"/>
+                <ToggleButton x:Name="t0805"/>
+                <ToggleButton x:Name="t0806"/>
+                <ToggleButton x:Name="t0807"/>
+                <ToggleButton x:Name="t0808"/>
+                <ToggleButton x:Name="t0809"/>
+                <ToggleButton x:Name="t0810"/>
+                <ToggleButton x:Name="t0811"/>
+                <ToggleButton x:Name="t0812"/>
+                <ToggleButton x:Name="t0813"/>
+                <ToggleButton x:Name="t0814"/>
+                <ToggleButton x:Name="t0815"/>
+            </WrapPanel>
+            <WrapPanel>
+                <ToggleButton x:Name="t0901"/>
+                <ToggleButton x:Name="t0902"/>
+                <ToggleButton x:Name="t0903"/>
+                <ToggleButton x:Name="t0904"/>
+                <ToggleButton x:Name="t0905"/>
+                <ToggleButton x:Name="t0906"/>
+                <ToggleButton x:Name="t0907"/>
+                <ToggleButton x:Name="t0908"/>
+                <ToggleButton x:Name="t0909"/>
+                <ToggleButton x:Name="t0910"/>
+                <ToggleButton x:Name="t0911"/>
+                <ToggleButton x:Name="t0912"/>
+                <ToggleButton x:Name="t0913"/>
+                <ToggleButton x:Name="t0914"/>
+                <ToggleButton x:Name="t0915"/>
+            </WrapPanel>
+            <WrapPanel>
+                <ToggleButton x:Name="t1001"/>
+                <ToggleButton x:Name="t1002"/>
+                <ToggleButton x:Name="t1003"/>
+                <ToggleButton x:Name="t1004"/>
+                <ToggleButton x:Name="t1005"/>
+                <ToggleButton x:Name="t1006"/>
+                <ToggleButton x:Name="t1007"/>
+                <ToggleButton x:Name="t1008"/>
+                <ToggleButton x:Name="t1009"/>
+                <ToggleButton x:Name="t1010"/>
+                <ToggleButton x:Name="t1011"/>
+                <ToggleButton x:Name="t1012"/>
+                <ToggleButton x:Name="t1013"/>
+                <ToggleButton x:Name="t1014"/>
+                <ToggleButton x:Name="t1015"/>
+            </WrapPanel>
+            <WrapPanel>
+                <ToggleButton x:Name="t1101"/>
+                <ToggleButton x:Name="t1102"/>
+                <ToggleButton x:Name="t1103"/>
+                <ToggleButton x:Name="t1104"/>
+                <ToggleButton x:Name="t1105"/>
+                <ToggleButton x:Name="t1106"/>
+                <ToggleButton x:Name="t1107"/>
+                <ToggleButton x:Name="t1108"/>
+                <ToggleButton x:Name="t1109"/>
+                <ToggleButton x:Name="t1110"/>
+                <ToggleButton x:Name="t1111"/>
+                <ToggleButton x:Name="t1112"/>
+                <ToggleButton x:Name="t1113"/>
+                <ToggleButton x:Name="t1114"/>
+                <ToggleButton x:Name="t1115"/>
+            </WrapPanel>
+            <WrapPanel>
+                <ToggleButton x:Name="t1201"/>
+                <ToggleButton x:Name="t1202"/>
+                <ToggleButton x:Name="t1203"/>
+                <ToggleButton x:Name="t1204"/>
+                <ToggleButton x:Name="t1205"/>
+                <ToggleButton x:Name="t1206"/>
+                <ToggleButton x:Name="t1207"/>
+                <ToggleButton x:Name="t1208"/>
+                <ToggleButton x:Name="t1209"/>
+                <ToggleButton x:Name="t1210"/>
+                <ToggleButton x:Name="t1211"/>
+                <ToggleButton x:Name="t1212"/>
+                <ToggleButton x:Name="t1213"/>
+                <ToggleButton x:Name="t1214"/>
+                <ToggleButton x:Name="t1215"/>
+            </WrapPanel>
+            <WrapPanel>
+                <ToggleButton x:Name="t1301"/>
+                <ToggleButton x:Name="t1302"/>
+                <ToggleButton x:Name="t1303"/>
+                <ToggleButton x:Name="t1304"/>
+                <ToggleButton x:Name="t1305"/>
+                <ToggleButton x:Name="t1306"/>
+                <ToggleButton x:Name="t1307"/>
+                <ToggleButton x:Name="t1308"/>
+                <ToggleButton x:Name="t1309"/>
+                <ToggleButton x:Name="t1310"/>
+                <ToggleButton x:Name="t1311"/>
+                <ToggleButton x:Name="t1312"/>
+                <ToggleButton x:Name="t1313"/>
+                <ToggleButton x:Name="t1314"/>
+                <ToggleButton x:Name="t1315"/>
+            </WrapPanel>
+            <WrapPanel>
+                <ToggleButton x:Name="t1401"/>
+                <ToggleButton x:Name="t1402"/>
+                <ToggleButton x:Name="t1403"/>
+                <ToggleButton x:Name="t1404"/>
+                <ToggleButton x:Name="t1405"/>
+                <ToggleButton x:Name="t1406"/>
+                <ToggleButton x:Name="t1407"/>
+                <ToggleButton x:Name="t1408"/>
+                <ToggleButton x:Name="t1409"/>
+                <ToggleButton x:Name="t1410"/>
+                <ToggleButton x:Name="t1411"/>
+                <ToggleButton x:Name="t1412"/>
+                <ToggleButton x:Name="t1413"/>
+                <ToggleButton x:Name="t1414"/>
+                <ToggleButton x:Name="t1415"/>
+            </WrapPanel>
+            <WrapPanel>
+                <ToggleButton x:Name="t1501"/>
+                <ToggleButton x:Name="t1502"/>
+                <ToggleButton x:Name="t1503"/>
+                <ToggleButton x:Name="t1504"/>
+                <ToggleButton x:Name="t1505"/>
+                <ToggleButton x:Name="t1506"/>
+                <ToggleButton x:Name="t1507"/>
+                <ToggleButton x:Name="t1508"/>
+                <ToggleButton x:Name="t1509"/>
+                <ToggleButton x:Name="t1510"/>
+                <ToggleButton x:Name="t1511"/>
+                <ToggleButton x:Name="t1512"/>
+                <ToggleButton x:Name="t1513"/>
+                <ToggleButton x:Name="t1514"/>
+                <ToggleButton x:Name="t1515"/>
+            </WrapPanel>
+                    </StackPanel>
+        </Grid>
+        <Grid Grid.Column="1">
+            <StackPanel Margin="10">
+                <TextBox x:Name="output" Margin="10" Padding="5" Width="160" Height="250" TextWrapping="Wrap"/>
+                <Button x:Name="buttonGo" Content="Go" Width="100" Margin="10" Padding="5" Click="buttonGo_Click"/>
+                <ListBox x:Name="list">
+                    <ListBoxItem Content="trójkąt"/>
+                    <ListBoxItem Content="kwadrat"/>
+                    <ListBoxItem Content="prostokąt"/>
+                    <ListBoxItem Content="koło"/>
+                    <ListBoxItem Content="trapez"/>
+                </ListBox>
+                <Button x:Name="buttonSave" Content="Save" Width="100" Margin="10" Padding="5" Click="buttonSave_Click"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

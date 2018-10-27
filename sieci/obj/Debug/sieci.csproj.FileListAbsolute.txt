@@ -1,0 +1,15 @@
+C:\Users\Ania\Desktop\studia\2_2\UM\sieci\sieci\bin\Debug\sieci.exe.config
+C:\Users\Ania\Desktop\studia\2_2\UM\sieci\sieci\bin\Debug\sieci.exe
+C:\Users\Ania\Desktop\studia\2_2\UM\sieci\sieci\bin\Debug\sieci.pdb
+C:\Users\Ania\Desktop\studia\2_2\UM\sieci\sieci\obj\Debug\sieci.csprojAssemblyReference.cache
+C:\Users\Ania\Desktop\studia\2_2\UM\sieci\sieci\obj\Debug\MainWindow.g.cs
+C:\Users\Ania\Desktop\studia\2_2\UM\sieci\sieci\obj\Debug\App.g.cs
+C:\Users\Ania\Desktop\studia\2_2\UM\sieci\sieci\obj\Debug\sieci_MarkupCompile.cache
+C:\Users\Ania\Desktop\studia\2_2\UM\sieci\sieci\obj\Debug\sieci_MarkupCompile.lref
+C:\Users\Ania\Desktop\studia\2_2\UM\sieci\sieci\obj\Debug\MainWindow.baml
+C:\Users\Ania\Desktop\studia\2_2\UM\sieci\sieci\obj\Debug\sieci.g.resources
+C:\Users\Ania\Desktop\studia\2_2\UM\sieci\sieci\obj\Debug\sieci.Properties.Resources.resources
+C:\Users\Ania\Desktop\studia\2_2\UM\sieci\sieci\obj\Debug\sieci.csproj.GenerateResource.cache
+C:\Users\Ania\Desktop\studia\2_2\UM\sieci\sieci\obj\Debug\sieci.csproj.CoreCompileInputs.cache
+C:\Users\Ania\Desktop\studia\2_2\UM\sieci\sieci\obj\Debug\sieci.exe
+C:\Users\Ania\Desktop\studia\2_2\UM\sieci\sieci\obj\Debug\sieci.pdb
