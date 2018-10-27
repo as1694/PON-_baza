@@ -270,16 +270,16 @@ namespace sieci
             {
                 lv_out = (list.SelectedValue.ToString()).Replace("System.Windows.Controls.ListBoxItem: ", "") + ": " + lv_out;
 
-                if (!File.Exists("C:\\Users\\Ania\\Desktop\\studia\\2_2\\UM\\sieci\\baza.txt"))//tu zmienić ścieżke
+                if (!File.Exists("C:\\Users\\Dominika\\OneDrive\\mgr\\2_sem\\Podstawy_obliczen_neuro\\PON-_baza\\baza.txt"))//tu zmienić ścieżke
                 {
-                    StreamWriter sw = File.CreateText("C:\\Users\\Ania\\Desktop\\studia\\2_2\\UM\\sieci\\baza.txt");//i tu
+                    StreamWriter sw = File.CreateText("C:\\Users\\Dominika\\OneDrive\\mgr\\2_sem\\Podstawy_obliczen_neuro\\PON-_baza\\baza.txt");//i tu
 
                     sw.WriteLine(lv_out);
                     sw.Close();
                 }
                 else
                 {
-                    StreamWriter sw = File.AppendText("C:\\Users\\Ania\\Desktop\\studia\\2_2\\UM\\sieci\\baza.txt");//i tu
+                    StreamWriter sw = File.AppendText("C:\\Users\\Dominika\\OneDrive\\mgr\\2_sem\\Podstawy_obliczen_neuro\\PON-_baza\\baza.txt");//i tu
 
                     sw.WriteLine(lv_out);
                     sw.Close();
